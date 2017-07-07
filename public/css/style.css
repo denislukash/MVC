@@ -1,0 +1,41 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.row.content {
+    height: 100%;
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+.all-users-and-comp {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.all-users-and-comp td,
+.all-users-and-comp th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.all-users-head {
+    text-align: center;
+}
+
+.container-error {
+    text-align: center;
+}

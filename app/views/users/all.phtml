@@ -1,0 +1,23 @@
+<h1 class="all-users-head">Full users info</h1>
+<table class="all-users-and-comp">
+    <tr>
+        <th>Id</th>
+        <th>Last Name</th>
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Date</th>
+        <th>City</th>
+        <th>Company id</th>
+    </tr>
+    <?php foreach ($this->_data['allUsers'] as $user): ?>
+        <tr>
+            <td><?php echo $user['id'];?></td>
+            <td><?php echo $user['last_name'];?></td>
+            <td><?php echo $user['first_name'];?></td>
+            <td><?php echo $user['email'];?></td>
+            <td><?php echo $user['date'];?></td>
+            <td><?php echo $user['city'];?></td>
+            <td><?php echo $user['company_id'];?></td>
+        </tr>
+    <?php endforeach;?>
+</table>

@@ -1,0 +1,17 @@
+<h1 class="all-users-head">All users with company names</h1>
+<table class="all-users-and-comp">
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>City</th>
+        <th>Company name</th>
+    </tr>
+    <?php foreach ($this->_data['usersAndComp'] as $user): ?>
+        <tr>
+            <td><?php echo $user['first_name'];?></td>
+            <td><?php echo $user['last_name'];?></td>
+            <td><?php echo $user['city'];?></td>
+            <td><?php echo $user['name'];?></td>
+        </tr>
+    <?php endforeach;?>
+</table>

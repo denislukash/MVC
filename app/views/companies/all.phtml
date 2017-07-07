@@ -1,0 +1,17 @@
+<h1 class="all-users-head">Full companies info</h1>
+<table class="all-users-and-comp">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Date</th>
+    </tr>
+    <?php foreach ($this->_data['allCompanies'] as $company): ?>
+        <tr>
+            <td><?php echo $company['id'];?></td>
+            <td><?php echo $company['name'];?></td>
+            <td><?php echo $company['city'];?></td>
+            <td><?php echo $company['date'];?></td>
+        </tr>
+    <?php endforeach;?>
+</table>
